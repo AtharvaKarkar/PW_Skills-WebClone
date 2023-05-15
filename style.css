@@ -94,7 +94,9 @@ html {
     font-size: 10px;
     scroll-behavior: smooth;
 }
+
 /* reused style */
+
 .container {
     max-width: 1300px;
     margin:0 auto;
@@ -120,4 +122,14 @@ html {
     font-size: 1.6rem;
     font-weight: 500;
 
+}
+
+.view__para {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.section__padding {
+    padding-bottom: 4.5rem;
 }
