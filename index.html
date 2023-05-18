@@ -39,7 +39,7 @@
         #Header Section
        -->
 
-       <header class="header">
+    <header class="header">
         <div class="container header__container">
 
             <!-- navbar -->
@@ -121,18 +121,20 @@
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="./Images/banner2.jpg" alt="banner1 image">
+                    <img src="./Images/banner2.jpg" alt="banner2 image">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="./Images/banner3.jpg" alt="banner1 image">
+                    <img src="./Images/banner3.jpg" alt="banner3 image">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="./Images/banner4.jpg" alt="banner1 image">
+                    <img src="./Images/banner4.jpg" alt="banner4 image">
                 </div>
 
             </div>
+
+            <div class="swiper-pagination"></div>
 
         </div>
 
@@ -142,10 +144,11 @@
     <!-- #HERO SECTION -->
 
     <section class="hero__section">
-        <div class="container hero__section">
+        <div class="container hero__container">
             <h1 class="main__heading hero__heading">"Pure Hardwork, No Shortcuts!"</h1>
 
             <div class="hero__hardworks">
+                
                 <div class="hero__hardwork">
                     <img src="./Images/hard1.svg" alt="Hardwork1 img">
                     <h2 class="hero__numbers">600+</h2>
@@ -457,138 +460,154 @@
     </section>
 
 
-    <section class="testimonial__section">
-        <div class="container testimonial__section">
-            <h1 class="main__heading">Hall Of Fame</h1>
+    <sectoin class="testimonial__section">
+        <div class="container testimonial__container">
+
+            <h1 class="main__heading">Hall of fame</h1>
 
             <div class="testimonials">
 
-                <div class="swiper mySwiper tesimonial__swiper section__padding">
-
-                    <div class="swiper-wrapper"> <!--div not arranged yet--> <!--div is arranged now but maybe it can give error will check the position later.-->
+                <div class="swiper mySwiper testimonial__swiper section__padding">
+                    <div class="swiper-wrapper">
 
                         <div class="swiper-slide testimonial">
-                            <img src="./Images/testimonial1.jpeg" alt="testimonial__image">
-                            <h4 class="tesimonial__name">Anil Kapoor</h4>
-                            <p class="bio-work">Biocube Matrics Pvt Ltd,Assistant Manager - Data Analyst</p>
-                            <p class="tesimonial__desc">I am Anil Kapoor, and I have worked in the BPO sector for
+
+                            <img src="./Images/testimonial1.jpeg" class="testimonial__image"
+                                alt="testimonial image">
+                            <h4 class="testimonial__name">Gaurav Varma</h4>
+                            <p class="bio-work">Biocube Matrics Pvt Ltd,Assistant Manager- Data Analyst</p>
+                            <p class="testimonial__desc">I am Gaurav Varma, and I have worked in the BPO sector for
                                 nearly 4 years. Working in the call center to data
                                 analytics has been...</p>
+
+                            <div class="testimonial__linkden__img">
+                                <img src="./Images/linkden_icon.png" alt="linkden_icon image">
+                            </div>
+
                         </div>
 
-                        <div class="testimonial__linkden__img">
-                            <img src="./Images/linkden_icon.png" alt="linkdin_icon_image">
+                        <div class="swiper-slide testimonial">
+
+                            <img src="./Images/testimonial2.jpeg" class="testimonial__image"
+                                alt="testimonial image">
+                            <h4 class="testimonial__name">sai krishna gorantla</h4>
+                            <p class="bio-work">Tredence Analytics,Data Analyst</p>
+                            <p class="testimonial__desc">Hello everyone I am an undergraduate from SRM University. I got
+                                placed in the Tredence Analytics it is all stack data youtube...</p>
+
+                            <div class="testimonial__linkden__img">
+                                <img src="./Images/linkden_icon.png" alt="linkden_icon image">
+                            </div>
+
                         </div>
 
-                    </div>
+                        <div class="swiper-slide testimonial">
 
-                    <div class="swiper-slide testimonial">
-                        <img src="./Images/testimonial2.jpeg" alt="tesimonial__image">
-                    </div>
-                    <h4 class="testimonial__name">Harsh Kumar</h4>
-                    <p class="bio-work">Tredence Analytics,Data Analyst</p>
-                    <p class="tesimonial__desc">Hello everyone I am an undergraduate from SRM University. I got
-                        placed in the Tredence Analytics it is all stack data youtube...</p>
+                            <img src="./Images/testimonial3.jpeg" class="testimonial__image"
+                                alt="testimonial image">
+                            <h4 class="testimonial__name">Ayushman Misra</h4>
+                            <p class="bio-work">Data Science Web Developer</p>
+                            <p class="testimonial__desc">I have studied from krish YouTube videos and ineuron, which
+                                helped me to understand the ..I have studied from krish YouTube...</p>
 
-                    <div class="testimonial__linkden__img">
-                        <img src="./Images/linkden_icon.png" alt="linkden_icon image">
-                    </div>
+                            <div class="testimonial__linkden__img">
+                                <img src="./Images/linkden_icon.png" alt="linkden_icon image">
+                            </div>
 
-                    <div class="swiper-slide testimonial">
-
-                        <img src="./Images/testimonial3.jpeg" class="testimonial__image" alt="testimonial image">
-                        <h4 class="testimonial__name">Ayushman Misra</h4>
-                        <p class="bio-work">Data Science Web Developer</p>
-                        <p class="testimonial__desc">I have studied from krish YouTube videos and ineuron, which
-                            helped me to understand the ..I have studied from krish YouTube...</p>
-
-                        <div class="testimonial__linkden__img">
-                            <img src="./Images/linkden_icon.png" alt="linkden_icon image">
                         </div>
 
-                    </div>
+                        <div class="swiper-slide testimonial">
 
+                            <img src="./Images/testimonial4.jpeg" class="testimonial__image"
+                                alt="testimonial image">
+                            <h4 class="testimonial__name">SUNIL RAMESH DODDAMANI</h4>
+                            <p class="bio-work">Epsilon,Statistician 2</p>
+                            <p class="testimonial__desc">Hi All,
 
-                    <div class="swiper-slide testimonial">
+                                I am a student of the NOV 2021 batch, I made a good decision by joining the Ineuron
+                                classes. A very the entire Thank you so much...
 
-                        <img src="./Images/testimonial4.jpeg" class="testimonial__image" alt="testimonial image">
-                        <h4 class="testimonial__name">Anurag Bhosale</h4>
-                        <p class="bio-work">Epsilon,Statistician 2</p>
-                        <p class="testimonial__desc">Hi All,
+                                .</p>
 
-                            I am a student of the NOV 2021 batch, I made a good decision by joining the Ineuron
-                            classes. A very the entire Thank you so much...</p>
+                            <div class="testimonial__linkden__img">
+                                <img src="./Images/linkden_icon.png" alt="linkden_icon image">
+                            </div>
 
-                        <div class="testimonial__linkden__img">
-                            <img src="./Images/linkden_icon.png" alt="linkden_icon image">
                         </div>
 
-                    </div>
+                        <div class="swiper-slide testimonial">
 
-                    <div class="swiper-slide testimonial">
+                            <img src="./Images/testimonial5.jpeg" class="testimonial__image"
+                                alt="testimonial image">
+                            <h4 class="testimonial__name">Dharmendar Kumar Mahto</h4>
+                            <p class="bio-work">Epsilon,Statistician 2, Late Night</p>
+                            <p class="testimonial__desc">Hi All,
 
-                        <img src="./Images/testimonial5.jpeg" class="testimonial__image" alt="testimonial image">
-                        <h4 class="testimonial__name">Dharmendra Kumar </h4>
-                        <p class="bio-work">Epsilon,Statistician 2</p>
-                        <p class="testimonial__desc">Hi All,
+                                I am a student of the NOV 2021 batch, I made a good decision by joining the Ineuron
+                                classes. A very the entire Thank you so much...
 
-                            I am a student of the NOV 2021 batch, I made a good decision by joining the Ineuron
-                            classes. A very the entire Thank you so much...</p>
+                                .</p>
 
-                        <div class="testimonial__linkden__img">
-                            <img src="./Images/linkden_icon.png" alt="linkden_icon image">
+                            <div class="testimonial__linkden__img">
+                                <img src="./Images/linkden_icon.png" alt="linkden_icon image">
+                            </div>
+
                         </div>
 
-                    </div>
+                        <div class="swiper-slide testimonial">
 
-                    <div class="swiper-slide testimonial">
+                            <img src="./Images/testimonial6.jpg" class="testimonial__image"
+                                alt="testimonial image">
+                            <h4 class="testimonial__name">Kunal Mahto</h4>
+                            <p class="bio-work">Epsilon,Statistician 2, Light Night</p>
+                            <p class="testimonial__desc">Hi All,
 
-                        <img src="./Images/testimonial6.jpg" class="testimonial__image" alt="testimonial image">
-                        <h4 class="testimonial__name">Kunal Meheta </h4>
-                        <p class="bio-work">Epsilon,Statistician 2</p>
-                        <p class="testimonial__desc">Hi All,
+                                I am a student of the NOV 2021 batch, I made a good decision by joining the Ineuron
+                                classes. A very the entire Thank you so much...
 
-                            I am a student of the NOV 2021 batch, I made a good decision by joining the Ineuron
-                            classes. A very the entire Thank you so much...</p>
+                                .</p>
 
-                        <div class="testimonial__linkden__img">
-                            <img src="./Images/linkden_icon.png" alt="linkden_icon image">
+                            <div class="testimonial__linkden__img">
+                                <img src="./Images/linkden_icon.png" alt="linkden_icon image">
+                            </div>
+
                         </div>
 
-                    </div>
+                        <div class="swiper-slide testimonial">
 
+                            <img src="./Images/testimonial7.jpg" class="testimonial__image"
+                                alt="testimonial image">
+                            <h4 class="testimonial__name">David Kumar</h4>
+                            <p class="bio-work">Epsilon,Statistician 2, Learn All Night</p>
+                            <p class="testimonial__desc">Hi All,
 
-                    <div class="swiper-slide testimonial">
+                                I am a student of the NOV 2021 batch, I made a good decision by joining the Ineuron
+                                classes. A very the entire Thank you so much...
 
-                        <img src="./Images/testimonial7.jpg" class="testimonial__image" alt="testimonial image">
-                        <h4 class="testimonial__name">David Warner </h4>
-                        <p class="bio-work">Epsilon,Statistician 2</p>
-                        <p class="testimonial__desc">Hi All,
+                                .</p>
 
-                            I am a student of the NOV 2021 batch, I made a good decision by joining the Ineuron
-                            classes. A very the entire Thank you so much...</p>
+                            <div class="testimonial__linkden__img">
+                                <img src="./Images/linkden_icon.png" alt="linkden_icon image">
+                            </div>
 
-                        <div class="testimonial__linkden__img">
-                            <img src="./Images/linkden_icon.png" alt="linkden_icon image">
                         </div>
 
                     </div>
 
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
-
                 </div>
 
-                <a href="#" class="testinomail__view-more view__more">View More</a>
+                <a href="#" class="testimonial__view-more view__more">View More</a>
 
             </div>
 
         </div>
+    </sectoin>
 
-    </section>
 
 
-    
+
 
 </body>
 

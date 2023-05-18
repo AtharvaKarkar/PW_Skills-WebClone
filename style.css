@@ -251,4 +251,150 @@ nav .header__navbar .navlist .navlink span img {
     padding-left: 0.4rem;
 }
 
+/*Banner Section*/
 
+.swiper-pagination-bullet {
+  background-color: var(--text-light-color);
+}
+
+.swiper {
+  width:100%;
+  height: 100%;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 1.8rem;
+  background:var(--text-light-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+/* MAIN HERO SECTION */
+.hero__container .hero__heading {
+  position: relative;
+
+}
+
+.hero__container .hero__heading ::after {
+  content: "";
+  width:13.2rem;
+  height:4px;
+  background-color: var(--text --text-pw-skills-orange);
+  border:1px solid var(--text-pw-skills-orange);
+  position:absolute;
+  bottom:4.5rem;
+  left:50%;
+  border-radius: 2px;
+  right:50%;
+  transform: translate(-50%,-50%);
+
+}
+.hero__container .hero__hardworks {
+    display: flex;
+    align-items: center;
+    padding: 4.5rem 0;
+    justify-content: space-between;
+}
+
+.hero__container .hero__hardworks .hero__hardwork {
+    text-align: center;
+    width: 33rem;
+}
+
+.hero__container .hero__hardworks .hero__hardwork img {
+    width: 17rem;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+
+}
+
+.hero__container .hero__hardworks .hero__hardwork h2 {
+  font-size: 3rem;
+}
+
+.hero__container .hero__hardworks .hero__hardwork .hero__numbers {
+  font-size: 3.5rem;
+  color:black;
+}
+
+/* #MAIN HERO_SECTION */
+
+.work__section {
+  margin-top:2.5rem;
+  background-color: #eaecef;
+  padding: 3rem;
+}
+
+.work__container .swiper-wrapper img {
+  padding: 3.5rem 0;
+  background-color: #eaecef !important;
+}
+
+/*-----------------------------------*\
+  #TESTINOMIAL SECTION
+\*-----------------------------------*/
+
+.testimonial__section {
+  padding-bottom: 4rem;
+  background-color: #e6ece6;
+}
+
+.testimonials .testimonial {
+  flex-direction: column;
+  padding:3rem;
+  border-radius: 1rem;
+  height: 41rem;
+  background-color: #fbfeff;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+}
+
+.testimonials .testimonial .testimonial__image {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.testimonials .testimonial .testimonial__desc {
+  font-size: 1.8rem;
+  text-overflow: ellipsis;
+  height: 9rem;
+  text-align: center;
+  overflow: hidden;
+  /*cursor: pointer;*/
+}
+
+.testimonials .testimonial .testimonial__linkden__img img {
+  border-radius: 0.3rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  cursor: pointer;
+  margin-top: 1.3rem;
+}
+
+/*swiper previous next  button */
+.swiper-button-next:after,.swiper-button-prev:after {
+  font-family: swiper-icons;
+    text-transform: none !important;
+    color: black;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    font-size: 1.6rem;
+    background: #ffff;
+    box-shadow: 0 0 1.5rem rgba(4, 4, 4, 0.46);
+    padding: 1.3rem 1.7rem;
+    border-radius: 3.2rem;
+
+}
