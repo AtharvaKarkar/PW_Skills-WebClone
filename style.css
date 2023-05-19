@@ -398,3 +398,11 @@ nav .header__navbar .navlist .navlink span img {
     border-radius: 3.2rem;
 
 }
+
+/*-----------------------------------*\
+  #POPULAR PROGRAMS SECTION
+\*-----------------------------------*/
+
+.popular_program__section {
+  padding-top: 2rem;
+}
