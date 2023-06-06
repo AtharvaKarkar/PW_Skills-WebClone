@@ -439,4 +439,8 @@ nav .header__navbar .navlist .navlink span img {
   text-align: left;
 }
 
+/*Products Section*/
 
+.product__section {
+  padding-bottom: 7rem;
+}
